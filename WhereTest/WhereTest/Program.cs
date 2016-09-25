@@ -46,6 +46,16 @@ namespace SharpTest
             AnotherAction(33, (i) => Console.WriteLine(i));
 
             Console.WriteLine(AnotherFunc(22, (a,b) => a * b )); // samma som Console.WriteLine(AnotherFunc(22, (a,b) => { return a * b; } )); Med return måste man ha måsvingar.
+
+            // Kolla hur det fungerar med index i lambda-exp.
+            int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+            var firstSmallNumbers = numbers.TakeWhile((n, index) => n >= index);
+
+            foreach (var item in firstSmallNumbers)
+            {
+                Console.WriteLine(item);
+            }
         }
 
         static float AnotherFunc(int i, Func<int, int, float> function)

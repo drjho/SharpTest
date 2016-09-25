@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkTest", "Enti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AysncTest", "AysncTest\AysncTest.csproj", "{66613AB7-0008-4EC5-869A-7BCF4DBA7BBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaTestMsdn", "LambdaTestMsdn\LambdaTestMsdn.csproj", "{FE85EAF2-0B17-4273-BAA6-38D1EAC831EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{66613AB7-0008-4EC5-869A-7BCF4DBA7BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66613AB7-0008-4EC5-869A-7BCF4DBA7BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66613AB7-0008-4EC5-869A-7BCF4DBA7BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE85EAF2-0B17-4273-BAA6-38D1EAC831EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE85EAF2-0B17-4273-BAA6-38D1EAC831EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE85EAF2-0B17-4273-BAA6-38D1EAC831EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE85EAF2-0B17-4273-BAA6-38D1EAC831EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
