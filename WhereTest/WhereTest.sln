@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhereTest", "WhereTest\WhereTest.csproj", "{00518B32-7F8F-40FE-B421-2EF81CC27E3B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpTest", "WhereTest\SharpTest.csproj", "{00518B32-7F8F-40FE-B421-2EF81CC27E3B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkTest", "EntityFrameworkTest\EntityFrameworkTest.csproj", "{C7463CBF-C868-4751-9153-9112AD7756E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AysncTest", "AysncTest\AysncTest.csproj", "{66613AB7-0008-4EC5-869A-7BCF4DBA7BBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C7463CBF-C868-4751-9153-9112AD7756E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7463CBF-C868-4751-9153-9112AD7756E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7463CBF-C868-4751-9153-9112AD7756E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66613AB7-0008-4EC5-869A-7BCF4DBA7BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66613AB7-0008-4EC5-869A-7BCF4DBA7BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66613AB7-0008-4EC5-869A-7BCF4DBA7BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66613AB7-0008-4EC5-869A-7BCF4DBA7BBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
