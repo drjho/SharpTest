@@ -17,11 +17,13 @@ namespace SharpTest
 
             Nullable<int> nInt = null;
 
-            Console.WriteLine( $"NullableInt value: {nullableInt}");
+            Console.WriteLine($"NullableInt value: {nullableInt}");
 
             nInt = 1;
 
-            Console.WriteLine( nInt );
+            ChangValue(nInt);
+
+            Console.WriteLine("after changevalue: " + nInt);
 
             var g = new MyGenericClass<TempClass>();
             var v = ChangeType<string, int>("10");
@@ -45,7 +47,7 @@ namespace SharpTest
 
             AnotherAction(33, (i) => Console.WriteLine(i));
 
-            Console.WriteLine(AnotherFunc(22, (a,b) => a * b )); // samma som Console.WriteLine(AnotherFunc(22, (a,b) => { return a * b; } )); Med return måste man ha måsvingar.
+            Console.WriteLine(AnotherFunc(22, (a, b) => a * b)); // samma som Console.WriteLine(AnotherFunc(22, (a,b) => { return a * b; } )); Med return måste man ha måsvingar.
 
             // Kolla hur det fungerar med index i lambda-exp.
             int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
@@ -56,6 +58,11 @@ namespace SharpTest
             {
                 Console.WriteLine(item);
             }
+        }
+
+        static void ChangValue(int? i)
+        {
+            i++;
         }
 
         static float AnotherFunc(int i, Func<int, int, float> function)

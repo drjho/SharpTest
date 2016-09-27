@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AysncTest", "AysncTest\Aysn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaTestMsdn", "LambdaTestMsdn\LambdaTestMsdn.csproj", "{FE85EAF2-0B17-4273-BAA6-38D1EAC831EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqTest", "LinqTest\LinqTest.csproj", "{61CE2978-D26E-4BEF-9D5D-29F9C5064B37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{FE85EAF2-0B17-4273-BAA6-38D1EAC831EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE85EAF2-0B17-4273-BAA6-38D1EAC831EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE85EAF2-0B17-4273-BAA6-38D1EAC831EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61CE2978-D26E-4BEF-9D5D-29F9C5064B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61CE2978-D26E-4BEF-9D5D-29F9C5064B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61CE2978-D26E-4BEF-9D5D-29F9C5064B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61CE2978-D26E-4BEF-9D5D-29F9C5064B37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
